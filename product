@@ -1,0 +1,14 @@
+Produto {
+	idProduto integer pk increments unique
+	nomeproduto varchar(60)
+	Qtdproduto integer(03)
+	Vlrproduto float(06)
+}
+
+Fornecedor {
+	idFornecedor integer pk increments unique
+	Nome_fornecedor varchar(60)
+	tel_fornecedor varchar(15)
+	email_fornecedor varchar(70)
+	new_field integer
+}
