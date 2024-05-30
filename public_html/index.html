@@ -1,201 +1,234 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+ <html class="no-js" lang=""> <!--<![endif]-->
     <head>
-        <title>Etec Rio Claro - Etec Prof. Armando Bayeux da Silva</title>
-		<meta charset="UTF-8">
-		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /-->        
-        <link href="http://www.etecbayeux.com.br/includes/lightbox/css/lightbox.css" rel="stylesheet">
-        <script src="http://www.etecbayeux.com.br/includes/lightbox/js/jquery-1.11.0.min.js"></script>
-        <script src="http://www.etecbayeux.com.br/includes/lightbox/js/lightbox.js"></script>
-		<link rel="stylesheet" type="text/css" href="http://www.etecbayeux.com.br/includes/bootstrap-3.3.6-dist/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="http://www.etecbayeux.com.br/includes/bootstrap-3.3.6-dist/css/custom.css">
-		<link rel="stylesheet" type="text/css" href="http://www.etecbayeux.com.br/includes/font-awesome-4.7.0/css/font-awesome.min.css">
-		<script type="text/javascript" src="http://www.etecbayeux.com.br/includes/bootstrap-3.3.6-dist/js/jquery.min.js"></script>
-		<script type="text/javascript" src="http://www.etecbayeux.com.br/includes/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
-				</button>
-				<a class="navbar-brand" href="http://www.etecbayeux.com.br/" title="Clique aqui para ir para o início">Etec Bayeux</a>	
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav pull-right">
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">A Escola<span class="caret"></span></a>
-							<ul class="dropdown-menu"><li><a href="?p=APM">APM</a></li><li><a href="?p=Biblioteca">Biblioteca</a></li><li><a href="http://www.etecbayeux.com.br/files/601a805c8ea9e.pdf" target="_blank">Calendário Batista 2021 (Extensão)</a></li><li><a href="http://www.etecbayeux.com.br/files/601a801952d82.pdf" target="_blank">Calendário Bayeux 2021</a></li><li><a href="http://www.etecbayeux.com.br/files/601a803a71bec.pdf" target="_blank">Calendário Cecy 2021 (Extensão)</a></li><li><a href="?p=Centro_Paula_e_Microsoft_Projeto_Imagine">Centro Paula e Microsoft - Projeto Imagine</a></li><li><a href="http://www.etecbayeux.com.br/?p=downloads" target="_blank">Downloads</a></li><li><a href="?p=Empregos_e_Estagios">Empregos e Estágios</a></li><li><a href="https://pt-br.facebook.com/Etec-Bayeux-Rio-Claro-1781482705415113/" target="_blank">Facebook Oficial</a></li><li><a href="http://www.etecbayeux.com.br/files/5af452be0d227.pdf" target="_blank">Manual do Aluno</a></li><li><a href="https://nsa.cps.sp.gov.br/?cod=036" target="_blank">NSA Online</a></li><li><a href="http://www.etecbayeux.com.br/?p=concursos" target="_blank">Processos Seletivos e Concursos</a></li><li><a href="http://www.etecbayeux.com.br/files/5b59a417d885b.pdf" target="_blank">Regimento Comum</a></li>							</ul>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Cursos<span class="caret"></span></a>
-							<ul class="dropdown-menu"><li><a href="?c=Administracao" >Administração</a></li><li><a href="?c=Administracao_Integrado_ao_Ensino_Medio" >Administração Integrado ao Ensino Médio</a></li><li><a href="?c=Contabilidade" >Contabilidade</a></li><li><a href="?c=Desenvolvimento_de_Sistemas" >Desenvolvimento de Sistemas</a></li><li><a href="?c=Desenvolvimento_de_Sistemas_Integrado_ao_Ensino_Medio" >Desenvolvimento de Sistemas Integrado ao Ensino Médio</a></li><li><a href="?c=Eletroeletronica" >Eletroeletrônica</a></li><li><a href="?c=Eletromecanica" >Eletromecânica</a></li><li><a href="?c=Enfermagem" >Enfermagem</a></li><li><a href="?c=Ensino_Medio" >Ensino Médio</a></li><li><a href="?c=Ensino_Medio_Linguagens_Ciencias_Humanas_e_Sociais" >Ensino Médio - Linguagens, Ciências Humanas e Sociais</a></li><li><a href="?c=Ensino_Medio_com_Hab_de_Tecnico_em_Administracao_Novotec" >Ensino Médio com Hab. de Técnico em Administração - Novotec</a></li><li><a href="?c=Ensino_Medio_com_Hab_de_Tecnico_em_Administracao_Novotec_Hibrido" >Ensino Médio com Hab. de Técnico em Administração - Novotec Hibrido</a></li><li><a href="?c=Ensino_Medio_com_Hab_de_Tecnico_em_Automacao_Industrial_Novotec" >Ensino Médio com Hab. de Técnico em Automação Industrial - Novotec</a></li><li><a href="?c=Ensino_Medio_com_Hab_de_Tecnico_em_Desen_de_Sist_Novotec_Hibrido" >Ensino Médio com Hab. de Técnico em Desen. de Sist. - Novotec Hibrido</a></li><li><a href="?c=Ensino_Medio_com_Hab_de_Tecnico_em_Mecatronica_Novotec" >Ensino Médio com Hab. de Técnico em Mecatrônica - Novotec</a></li><li><a href="?c=Logistica" >Logística</a></li><li><a href="?c=Mecanica" >Mecânica</a></li><li><a href="?c=Recursos_Humanos" >Recursos Humanos</a></li>							</ul>
-						</li>
-						<li><a href="?p=noticias">Notícias</a></li>	
-						<li><a href="/?p=localizacao">Localização</a></li>						
-					<li><a href="?p=Contato">Contato</a></li><li><a href="?p=Sobre">Sobre</a></li><li><a href="https://www.vestibulinhoetec.com.br/home/" target="_blank">Vestibulinho</a></li>					</ul>
-				</div>
-			</div>
-		</nav>
-				
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">		
-		<ol class="carousel-indicators">                
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>			<li data-target="#myCarousel" data-slide-to="1"></li>			<li data-target="#myCarousel" data-slide-to="2"></li>		</ol>
-		<div class="carousel-inner" role="listbox">		
-			<div class="item active">				
-				<a href="http://www.etecbayeux.com.br/?noticia=Comunicado_interno_de_retorno_presencial_Etec_Prof_Armando_Bayeux_da_Silva_em_18_10_2021"><img src="http://www.etecbayeux.com.br/_imgs/noticia/616c4eb20ad3c.jpg"></a>
-				<div class="carousel-caption">
-					<h3 class="h3-news" style="color:#FFFFFF">Comunicado interno de retorno presencial Etec Prof. Armando Bayeux da Silva em 18/10/2021</h3>												
-				</div>
-			</div>			<div class="item">
-				<a href="http://www.etecbayeux.com.br/?noticia=Semana_de_Tecnologia_da_Etec_Bayeux"><img src="http://www.etecbayeux.com.br/_imgs/noticia/615f73e17de97.jpg"></a>
-				<div class="carousel-caption">
-					<h3 class="h3-news" style="color:#FFFFFF">Semana de Tecnologia da Etec Bayeux</h3>					
-				</div>
-			</div>			<div class="item">
-				<a href="http://www.etecbayeux.com.br/?noticia=Bayeux_101_anos_"><img src="http://www.etecbayeux.com.br/_imgs/noticia/614123f7e4cd2.jpg"></a>
-				<div class="carousel-caption">
-					<h3 class="h3-news" style="color:#FFFFFF">Bayeux 101 anos!</h3>					
-				</div>
-			</div>		</div>
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>	<div class="container-fluid custom-container text-center">
-		<h2>Seja bem-vindo a Etec Professor Armando Bayeux da Silva!</h2>
-		<h4>A Escola Técnica Estadual Professor Armando Bayeux da Silva é uma instituição pública de ensino técnico 
-		pertencente ao Centro Estadual de Educação Tecnológica Paula Souza. Localizada na região central de Rio Claro, 
-		a escola oferece diversos cursos de educação profissional técnica e o ensino médio.</h4>
-	</div>
-	<div class="container-fluid custom-container bg-grey" style="padding-top: 45px; padding-bottom: 45px;">
-        <div class="col-sm-4 text-center">
-            <i class="glyphicon glyphicon-education circle-icon"></i>    
-            <h3 class="text-center">Qualidade Comprovada</h3>
-            <p>A escola está entre as melhores escolas públicas do país</p>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Nandotecno Solutions</a>
         </div>
-        <div class="col-sm-4 text-center">
-            <i class="glyphicon glyphicon-piggy-bank circle-icon"></i>    
-            <h3 class="text-center">Educação Gratuita</h3>
-            <p>Educação de qualidade e totalmente gratuita</p>
-        </div>
-        <div class="col-sm-4 text-center">
-            <i class="glyphicon glyphicon-wrench circle-icon"></i>    
-            <h3 class="text-center">Empregabilidade</h3>
-            <p>Ensino técnico preparatório para o mercado de trabalho</p>
-        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Entre</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Nandotecno Solutions</h1>
+        <p align='justify'>Empresa especializada no gerenciamento financeiro e na gestão das mídias sociais, realização de eventos digitais exclusivas para seu negócio criando o fortalecimento da marca. Estruturação fiscal dos registros de pagamentos da sua empresa com auxílio contábil na organização dos fatores financeiros e orçamentários. Gestão interna através de controles administrativos com a padronização de processos, prospecção de clientes e conciliação de recebíveis através da contactação de clientes com soluções direcionadas para correção de possíveis critérios capazes de gerar prejuízos financeiros. Criação de campanhas exclusivas direcionadas para divulgação da sua empresa através das mídias sociais.</p>
+        <p><a class="btn btn-primary btn-lg" href="https://Nandotecno.com.br" target="_blank" role="button">Mais informações &raquo;</a></p>
+      </div>
     </div>
-    <div class="container-fluid custom-container">
-        <div class="row">
-            <div class="col-lg-3 col-sm-6 text-center">
-                <span class="span-counter">1000+</span>
-                <h4 class="">Estudantes por semestre</h4>
-            </div>
-            <div class="col-lg-3 col-sm-6 text-center">
-                <span class="span-counter">15+</span>
-                <h4>Cursos</h4>
-            </div>
-            <div class="col-lg-3 col-sm-6 text-center">
-                <span class="span-counter">60+</span>
-                <h4>Docentes</h4>
-            </div>
-            <div class="col-lg-3 col-sm-6 text-center">
-                <span class="span-counter">100</span>
-                <h4>Anos de tradição</h4>
-            </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>BPO Financeiro</h2>
+          <p align='justify'>Estruturação financeira através de métodos gerenciais, realização de controle orçamentário e conciliações bancárias, realização da parte estratégica, operacional de serviços administrativos através do controle das finanças e conciliação de recebíveis do seu empreendimento.</p>
+         <p><a class="btn btn-default" href="https://www.facebook.com/Nandotecno/" target="_blank" role="button">Saiba Mais &raquo;</a></p>
         </div>
+        <div class="col-md-4">
+          <h2 align='justify'>Atendimento Contábil</h2>
+          <p align='justify'> Gestão da movimentação fiscal, atualização das informações do seu CNPJ, parcelamento de tributos em atraso, emissão de guias para pagamentos DAS, elaboração de contrato social, mudança de CNAE consulta de pendência do SIMEI.</p>
+          <p><a class="btn btn-default" href="https://www.instagram.com/nandotecno_solutions/" target="_blank" role="button">Saiba Mais &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Mídias Sociais / Designer</h2>
+          <p align='justify'> Criação de e-commerce, sites pessoais, portfólios de apresentação, sistemas de pagamentos, dashboards de acompanhamento, personalização de logotipo entre outros métodos de campanhas e divulgação de conteúdo digital. </p>
+          <p><a class="btn btn-default" href="https://www.linkedin.com/company/nandotecno-solutions/" target="_blank" role="button">Saiba Mais &raquo;</a></p>
+        </div>
+          
+        <div class="col-md-12">
+              <h2>Missão</h2>
+             
+ <p align="justify">Impulsionar o crescimento sustentável e a competitividade dos nossos clientes e parceiros, por meio da gestão financeira, soluções comerciais personalizadas e metodologias inovadoras de estruturação organizacional.
+</p>
+<h2>Visão</h2>
+
+<p align="justify">Ser reconhecida como a principal provedora de gestão financeira, atividades contábeis direcionadas para o gerenciamento web e soluções comerciais, através de tecnológicas que impulsionam o crescimento sólido e competitivo dos nossos clientes e parceiros.
+</p>
+<h2>Valores</h2>
+<p align="justify">Confiabilidade, Orientação ao cliente, Crescimento Sustentável e Eficiência.
+</p>
+</div>
+
+  <div class="col-md-12">
+    <h2>Política de Privacidade e Segurança.</h2>
+    <p>Nossos sites oficiais são: <p>www.nandotecno.com.br - www.nandotecno.com<p1> <p> www.benytecno.com.br - www.benytecno.com</p>
     </div>
-	<div class="container-fluid custom-container text-center bg-grey padding-fix">
-		<h2>Conheça nossa Etec!</h2>
-		<div class="row text-center slideanim equal">
-			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 equal-col">
-				<div class="thumbnail custom-thumb equal-thumb">
-					<a href="?p=noticias"><img class="thumb-img" src="_imgs/noticias.jpg"></a>
-					<div class="thumb-container">
-						<p><b>NOTÍCIAS</b></p>
-						<p>Fique por dentro de tudo que acontece em nossa Etec</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 equal-col">
-				<div class="thumbnail custom-thumb equal-thumb">
-					<a href="?p=cursos"><img class="thumb-img" src="_imgs/cursos.jpg"></a>
-					<div class="thumb-container">
-						<p><b>CURSOS</b></p>
-						<p>Consulte nossos cursos gratuitos e de qualidade</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 equal-col">
-				<div class="thumbnail custom-thumb equal-thumb">
-					<a href="?p=galeria"><img class="thumb-img" src="_imgs/galeria.jpg"></a>
-					<div class="thumb-container">
-						<p><b>GALERIA</b></p>
-						<p>Veja as fotos de vários momentos marcantes</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row text-center slideanim equal">
-			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 equal-col">
-				<div class="thumbnail custom-thumb equal-thumb">
-					<a href="?p=projetos"><img class="thumb-img" src="_imgs/projetos.jpg"></a>
-					<div class="thumb-container">
-						<p><b>PROJETOS</b></p>
-						<p>Acompanhe os projetos desenvolvidos por nossos docentes e discentes</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 equal-col">
-				<div class="thumbnail custom-thumb equal-thumb">
-					<a href="?p=concursos"><img class="thumb-img" src="_imgs/concursos.jpg"></a>
-					<div class="thumb-container">
-						<p><b>PROCESSOS E CONCURSOS</b></p>
-						<p>Acompanhe os processos seletivos e concursos da Etec Bayeux</p>
-					</div>
-				</div>
-			</div>		
-			<!--div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 equal-col">
-				<div class="thumbnail custom-thumb equal-thumb">
-					<a href="?p=downloads"><img class="thumb-img" src="_imgs/downloads.jpg"></a>
-					<div class="thumb-container">
-						<p><b>DOWNLOADS</b></p>
-						<p>Acesse nosso acervo e faça o download de PTDs, manuais, etc</p>
-					</div>
-				</div>
-			</div-->		
-			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 equal-col">
-				<div class="thumbnail custom-thumb equal-thumb">
-					<a href="?p=docentes"><img class="thumb-img" src="_imgs/docentes.jpg"></a>
-					<div class="thumb-container">
-						<p><b>CORPO DOCENTE</b></p>
-						<p>Conheça nossos docentes e visualize seus currículos</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>    
-        <div class="footer bg-4 text-center">	
-            <div class="container-fluid">
-        		<div class="col-sm-12 text-center">
-        			<a href="https://pt-br.facebook.com/Etec-Bayeux-Rio-Claro-1781482705415113/" class="fa fa-facebook circle-icon" target="_blank"></a>
-        			<a href="https://www.youtube.com/results?search_query=etec+bayeux" class="fa fa-youtube circle-icon" target="_blank"></a>
-        			<a href="https://www.instagram.com/etecbayeux/" class="fa fa-instagram circle-icon" target="_blank"></a>
-        			<a href="https://api.whatsapp.com/send?phone=5519996743348" class="fa fa-whatsapp circle-icon" target="_blank"></a>
-                    <hr>
-        		</div>
-            </div>			
-			©2014 - 2021, Etec Rio Claro - Etec Prof. Armando Bayeux da Silva - TODOS OS DIREITOS RESERVADOS
-		</div>
+
+            <h1>Informações</h1>
+             <p align="justify">A sua privacidade é importante para nós. É política da Nandotecno Solutions respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site e outros sites que possuímos e operamos.
+Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.<p>
+
+ <p align="justify">Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
+O usuário que está navegando nos acessos de comunicação fica ciente de que permanece em um ambiente seguro e que nenhuma das suas informações coletadas serão divulgadas para terceiros;
+Os visitantes ao acessar o site, deixa disponível a opção de coletamos os dados mostrados no formulário de comentários, além do endereço de IP e de dados do navegador do visitante, para auxiliar na detecção de spam.
+Uma sequência anonimizada de caracteres criada a partir do seu e-mail (também chamada de hash) poderá ser enviada para o Gravatar para verificar se você usa o serviço. Depois da aprovação do seu comentário, a foto do seu perfil fica visível publicamente junto de seu comentário.
+</p>
+<h2>Mídia</h2>
+
+<p align="justify">Artigos oficiais das empresas Nandotecno e Benytecno Solutions estão integrados nos canais de comunicação web através de ferramentas disponivéis de divulgação, a utilização indevida e não autorizada pode ocasionar tratativas processuais, sendo através de recortes de imagens, vídeos, expressões vinculadas a marca entre outras informações podem incluir conteúdo incorporado como, por exemplo, vídeos, imagens, artigos, etc. Conteúdos incorporados de outros sites se comportam exatamente da mesma forma como se o visitante estivesse visitando o outro site.
+Estes sites podem coletar dados sobre você, usar cookies, incorporar rastreamento adicional de terceiros e monitorar sua interação com este conteúdo incorporado, incluindo sua interação com o conteúdo incorporado se você tem uma conta e está conectado com o site.
+</p>
+<h2>Cookies</h2>
+<p align="justify">Ao deixar um comentário no site, você poderá optar por salvar seu nome, e-mail e site nos cookies. Isso visa seu conforto, assim você não precisará preencher seus dados novamente quando fizer outro comentário. Estes cookies duram um ano.
+
+Se você tem uma conta e acessa este site, um cookie temporário será criado para determinar se seu navegador aceita cookies. Ele não contém nenhum dado pessoal e será descartado quando você fechar seu navegador.
+Quando você acessa sua conta no site, também criamos vários cookies para salvar os dados da sua conta e suas escolhas de exibição de tela. 
+<p align="justify"> Cookies de login são mantidos por dois dias e cookies de opções de tela por um ano. Se você selecionar “Lembrar-me”, seu acesso será mantido por duas semanas. Se você se desconectar da sua conta, os cookies de login serão removidos.
+Se você editar ou publicar um artigo, um cookie adicional será salvo no seu navegador. Este cookie não inclui nenhum dado pessoal e simplesmente indica o ID do post referente ao artigo que você acabou de editar. Ele expira depois de 1 dia.
+<p>
+
+<h2>Com quem compartilhamos seus dados</h2>
+<p align="justify">Se você solicitar uma redefinição de senha, seu endereço de IP será incluído no e-mail de redefinição de senha;
+os padrões de segurança utilizados para criptografar os dados como cpf, senhas e números de cartões, nome completos e outros são utilizados para segurança do usuário;
+<p>
+
+<h2>Por quanto tempo mantemos os seus dados</h2>
+<p align="justify">Se você deixar um comentário, o comentário e os seus metadados são conservados indefinidamente. Fazemos isso para que seja possível reconhecer e aprovar automaticamente qualquer comentário posterior ao invés de retê-lo para moderação.
+Para usuários que se registram no nosso site (se houver), também guardamos as informações pessoais que fornecem no seu perfil de usuário. Todos os usuários podem ver, editar ou excluir suas informações pessoais a qualquer momento (só não é possível alterar o seu username). Os administradores de sites também podem ver e editar estas informações.
+</p>
+
+<h2>Quais os seus direitos sobre seus dados</h2>
+<p align="justify">Se você tiver uma conta neste site ou se tiver deixado comentários, pode solicitar um arquivo exportado dos dados pessoais que mantemos sobre você, inclusive quaisquer dados que nos tenha fornecido. Também pode solicitar que removamos qualquer dado pessoal que mantemos sobre você. Isto não inclui nenhuns dados que somos obrigados a manter para propósitos administrativos, legais ou de segurança.
+</p>
+
+
+<h2>Informações legais</h2>
+<p align="justify">A utilização indevida da marca, seus produtos ou serviços, localização e meios de comunicação sem autorização é passível de representações judiciais.
+Qualquer divulgação imprópria referente a marca, produtos ou serviços de modo que podem denegrir a imagem da empresa pode incidir em complicações legais.
+Fica declarado os direitos à propriedade intelectual aplicada ao conceito de negócio das empresas e coligadas, incluindo formato, sistemas, códigos, métricas e realização das atividades também como as artes apresentadas forma de figuras, scripts, texto e imagens. 
+<p></p> 
+
+<h2>Indicações diversas</h2>
+<p align="justify">Não realize transferências, depósitos, ou qualquer outra forma de pagamento sem as devidas confirmações de contato e prestação de serviços.
+Não informe senhas, número de documentos ou informações pessoais sem a confirmação oficial através de recibos, orçamentos ou comunicação previamente identificada pela equipe de prestação de serviço.
+A empresa não se responsabiliza diante de eventuais incovenientes referente a transações efetuadas sem o retorno oficial dos integrantes da instituíção.
+
+<p></p> 
+
+<h2>Utilize somente canais oficiais de comunicação.</h2>
+<h2><p>www.benytecno.com.br</p></h2>
+<p>whatsapp: 13 988345526</p>
+<p>Suporte:  11 969913584</p>
+<p>https://www.facebook.com/Benytecno</p>
+<p>https://www.instagram.com/benytecno_solutions/</p>
+<p>https://www.linkedin.com/company/benytecno-solutions/</p>
+<p>E-mail: benytecno.solution@gmail.com</p>
+<p>E-mail: atendimento@benytecno.com.br</p>
+
+<h2><p>www.nandotecno.com.br</p></h2>
+<p>whatsapp: 13 981496014</p>
+<p>Suporte:  11 969913584</p>
+<p>https://www.facebook.com/Nandotecno</p>
+<p>https://www.instagram.com/nandotecno_solutions/</p>
+<p>https://www.linkedin.com/company/nandotecno-solutions/</p>
+<p>E-mail: nandotecno.solutions@gmail.com</p>
+<p>E-mail: atendimento@nandotecno.com.br</p>
+<p>CNPJ NANDOTECNO SOLUTONS 43056627000177</p>
+</p>
+
+<h2><p>Benytecno Store</p></h2>
+<p>Nosso modelo de negócios baseado em dropshipping permite que você ofereça uma ampla variedade de produtos aos seus clientes, sem os desafios típicos de gerenciar estoque, armazenamento e logística.
+  Nosso compromisso vai além da simples intermediação de vendas. Investimos em tecnologia de ponta, processos ágeis e um time altamente qualificado para garantir a máxima confiabilidade, eficiência e suporte ao longo de todo o ciclo de vendas. Nosso objetivo é ser o parceiro ideal para o seu negócio prosperar no ambiente competitivo do e-commerce.</p>
+<p>www.benytecno.com</p>
+<p>whatsapp: 13 982127136</p>
+<p>Suporte:  11 969913584</p>
+<p>https://www.facebook.com/BenytecnoStore</p>
+<p>https://www.instagram.com/benytecno_store/</p>
+<p>E-mail: benytecno.store@gmail.com</p>
+<p>E-mail: atendimento.benytecno@gmail.com</p>
+
+</p>
+
+<h2><p>Nandotecno Store</p></h2>
+<p>Somos uma empresa especializada em oferecer uma plataforma online confiável e eficiente para que empreendedores e pequenos negócios possam vender produtos de forma rápida e sem a necessidade de manter estoques próprios. 
+  Com anos de experiência no setor, entendemos as necessidades dos nossos clientes e trabalhamos incansavelmente para proporcionar uma jornada de compras excepcional. Nosso modelo de negócios baseado em dropshipping permite que você ofereça uma ampla variedade de produtos aos seus clientes, sem os desafios típicos de gerenciar estoque, armazenamento e logística.</p>
+<p>www.nandotecno.com</p>
+<p>whatsapp: 13 982062374</p>
+<p>Suporte:  11 969913584</p>
+<p>https://www.facebook.com/NandotecnoStore</p>
+<p>https://www.instagram.com/nandotecno_store/</p>
+<p>E-mail: nandotecno.store@gmail.com</p>
+<p>E-mail: atendimento.nandotecno@gmail.com</p>
+<p>GRUPO NANDOTECNO SOLUTONS 43056627000177</p>
+</p>
+
+<h2>Compromisso do Usuário</h2>
+<p align="justify">O usuário se compromete a fazer uso adequado dos conteúdos e da informação que a empresa prestadora de serviço oferece no site e com caráter enunciativo, mas não limitativo:<p>
+
+<p>A - Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</p>
+<p>B - Não difundir propaganda ou conteúdo de natureza racistas, xenofóbicas, homofóbicas jogos de azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</p>
+<p>C - Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) da empresa prestadora de serviço, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</p>
+<h2><p>Mais informações</p></h2>
+<p>Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</p>
+<p>Qualquer dúvida entre em contato no whatsapp 11 952349487</p>
+    
+    </p>
+Esta política é efetiva a partir de Janeiro/2022.
+</p>
+
+     </div>
+      </div> 
+    <hr>    
+      <footer>
+        <p>&copy; Nandotecno Solutions Company 2024. Todos os direitos reservados.</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
     </body>
 </html>
